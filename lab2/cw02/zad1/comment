@@ -1,0 +1,10 @@
+We can see that files created with a program and by using
+tr function are identical so that means that the program works.
+ 
+We can see that using sys functions like write and read
+is faster than using lib functions such as fwrite and fread
+probably because they are operating directly on file descriptors, 
+rather than on file streams as with the library functions.
+However the difference is small or negligible.
+
+To run a test type: make test

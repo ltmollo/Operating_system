@@ -1,0 +1,10 @@
+We can observe a few differences between the wc command and the program's output. 
+The wc command displays the sizes of all files and directories, 
+including those that the program skips. In contrast, the program skips 
+directories and hidden files or files for which it cannot obtain information using 
+the stat() function.
+
+Additionally, we may notice a difference in the size of the resulting output file 
+because the program overwrites the file, which results in a larger file size.
+
+To run a test type: make test

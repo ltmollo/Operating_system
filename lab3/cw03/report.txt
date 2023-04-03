@@ -1,0 +1,15 @@
+Zestaw jest komplenty tzn. wszystkie zadania zostały zrealizowane
+(zad1, zad2, zad3)
+
+Zadanie 1
+Program działa poprawnie
+
+Zadanie 2 
+Program przetestowano zgodnie z treścią polecenia. Działa poprawnie.
+
+Zadanie 3 
+Treść polecenia mówi, że ścieżka do pliku wraz nazwą musi być mniejsza niż MAX_PATH_LENGTH, 
+przyjęto zatem konwencję, że MAX_PATH_LENGTH = 1024 oraz jeśli ścieżka jest dłuższa
+to proces jest zakańczany i system wypisuje informację o błędzie. Dodatkowo utworzono plik nagłówkowy 
+limits.h zgodnie z informacją zawartą we wskazówkach. Zadanie przetestowano zgodnie z treścią polecenia.
+Program działa poprawnie. Dodano możliwość testów poleceniem: make test

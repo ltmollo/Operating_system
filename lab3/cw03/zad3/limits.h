@@ -1,0 +1,7 @@
+#ifndef ZAD3_LIMITS_H
+#define ZAD3_LIMITS_H
+
+#define MAX_PATH_LENGTH 1024
+#define MAX_STRING_SIZE 255
+
+#endif //ZAD3_LIMITS_H

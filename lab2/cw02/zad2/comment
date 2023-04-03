@@ -1,0 +1,7 @@
+We can see that copying blocks of characters is significantly faster than copying 
+character by character. This is because reading one character requires an input/output 
+(I/O) operation on the hard disk, which is time-consuming. In the case of reading larger blocks,
+the operating system can perform a single I/O operation and read multiple characters at once, 
+which speeds up the copying process.
+
+To run a test type: make test

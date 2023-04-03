@@ -1,0 +1,8 @@
+The program produces a similar output to the wc command, 
+with the exception that it skips directories and only
+writes file names without their full paths.
+
+Additionally, we may notice a difference in the size of the resulting output file 
+because the program overwrites the file, which results in a larger file size.
+
+To run a test type: make test

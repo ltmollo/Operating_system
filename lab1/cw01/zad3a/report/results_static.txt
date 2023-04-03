@@ -1,0 +1,77 @@
+Enter command >>> Real time: 0.000019
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>> Real time: 0.001957
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>> Real time: 0.001829
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>> Real time: 0.001700
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>> Real time: 0.001729
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>> Real time: 0.001727
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>>  163  392 4508 repl.c
+Real time: 0.000007
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>>  111  275 2850 library.c
+Real time: 0.000001
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>>  28  66 608 library.h
+Real time: 0.000000
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>>  29  66 636 library_so.h
+Real time: 0.000000
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>>  31  77 829 dl_manager.h
+Real time: 0.000000
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>> Real time: 0.000009
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>> Real time: 0.000001
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>> Real time: 0.000000
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>> Real time: 0.000000
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>> Real time: 0.000000
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>> Real time: 0.000006
+User time: 0.000000
+System time: 0.000000
+
+Enter command >>> Real time: 0.000012
+User time: 0.000000
+System time: 0.000000
+

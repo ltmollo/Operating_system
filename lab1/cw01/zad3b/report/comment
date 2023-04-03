@@ -1,0 +1,9 @@
+There is no big differnce between running code without opitmalization and O0.
+We can see that _O1_ is slower than _O0_. I guess it is beacuse like I have said
+in zad3a report, due to the fact that program in not too big. It might be also due to
+an emphasis _O1_ puts on a better debug experience. It is easy to see that _O3_ is the
+fastest level of optimalization. The _Os_ takes the most time. It is becasue of
+the fact that it tries to reduce the code size.
+
+We can see that on _O3_ static library is the fastest and on _Os_ shared library
+takes the lead.

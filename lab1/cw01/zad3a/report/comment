@@ -1,0 +1,4 @@
+There is no big difference in time between using static, shared or dynamic library.
+Static library should be the fastest one, although the program we are testing is too small
+so it is difficult to measure time objectively. We can see that a count operation takes the most time
+due to a file reading. Show operation takes the least time because it uses a program memory.
