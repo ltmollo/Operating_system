@@ -1,0 +1,23 @@
+Zestaw jest kompletny, tzn. zawiera wszystkie zadania
+
+Zad 1.
+Zadanie zostało sprawdzone na poziomie sortowania po nadawcy i dacie. 
+Zadanie nie zostało przetestowane na poziomie wysyłania e-mail, 
+ponieważ komputer na którym pracowałem nie miał skonfigurowanego adresu email. 
+Jednakże w trakcie wysyłania wiadomości lokalnie (tzn. z tego samego adresu 
+na ten sam adres e-mail) wszystko funkcjonowało w sposób prawidłowy.
+
+Zad 2.
+Zadanie zostało zrealizowane poprawnie. 
+Testy zostały załączone w pliku report.txt. 
+Można odpalić testy wywołując polecenie make test. 
+Same wyniki są do przewidzenia, tzn. wraz z dokładnością 
+obliczeń rośnie czas wykonywania programu.
+
+Zad 3.
+Zadanie zostało zrealizowane poprawnie. 
+Aby wywołać program należy wykonać polecenie ./main, 
+program portion oblicza „fragment” całki zgodnie z poleceniem. 
+Podobnie jak w zadaniu 2 czas rośnie wraz z dokładnością obliczeń. 
+Samo działanie programu jest dłuższe niż programu odpowiedzialnego za zad 2.
+
