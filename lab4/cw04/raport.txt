@@ -1,0 +1,19 @@
+Zestaw jest kompletny
+
+Zad 1 
+Zrealizowano i działa prawidłowo.
+Polecenie make wywołuje testy.
+
+Zad2
+Zrealizowano i działa prawidłowo.
+Dodano plik raport z komentarzem.
+
+Zad3 
+Zrealizowano i działa prawidłowo. Programy wykonywalne mają nazwy odpowiednio: 
+catcher i sender. Zdecydowano, że sender odpowiada za kontrolowanie prawidłowości 
+przekazywanych argumentów, tzn. program przyjmuje argumenty z zakresu [1,5], 
+sprawdza czy istnieje catcher o podanym pid. Również uznano, że argument dotyczący 
+wyłączenia catchera powinien być jako ostatni, gdyż nie ma sensu wysyłać poleceń 
+do wyłączonego catchera. Jeżeli sender natrafi na nieprawidłowy argument to go
+pomija (nie wysyła do catchera) wypisując stosowny komunikat i kontynuuje działanie programu.
+

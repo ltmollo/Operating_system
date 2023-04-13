@@ -1,0 +1,53 @@
+--------------
+SIGINFO:
+SELF:
+Signal number: 10
+Singal PID: 23704
+Signal UID: 1000
+Signal ERRNO: 0
+Signal exit: 0
+
+CHILD:
+Signal number: 10
+Singal PID: 23705
+Signal UID: 1000
+Signal ERRNO: 0
+Signal exit: 0
+
+CUSTOM:
+Signal number: 10
+Singal PID: 23704
+Signal UID: 1000
+Signal ERRNO: 0
+Signal exit: abc
+--------------
+NODEFER:
+(+) id: 0, depth: 0
+(+) id: 1, depth: 1
+(+) id: 2, depth: 2
+(+) id: 3, depth: 3
+(+) id: 4, depth: 4
+(-) id: 4, depth: 4
+(-) id: 4, depth: 3
+(-) id: 4, depth: 2
+(-) id: 4, depth: 1
+(-) id: 4, depth: 0
+--------------
+RESETHAND:
+(+) id: 0, depth: 0
+(-) id: 0, depth: 0
+User defined signal 1
+
+1. SA_SIGINFO
+ Signal number - the same
+ Singal PID - child has different
+ Signal UID - the same
+ Signal ERRNO - the same
+ Signal exit - custom signal has different
+
+2. SA_NODEFER
+  We can see how the recursion goes
+
+3. SA_RESETHAND
+  We can see that we set a
+  different handler

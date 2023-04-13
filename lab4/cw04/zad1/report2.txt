@@ -1,0 +1,12 @@
+Dla Fork:
+ignore:  Dwa sygnały ignorowane
+handler: Handler wywoluje sie w obydwu
+mask: Maska dziala w obydwu
+pending: Sygnał oczekujący jest widoczny w rodzicu, ale nie w dziecku
+
+Dla Exec:
+ignore: Dwa sygnały ignorowane
+mask: Maska dziala w obydwu
+pending: Oczekujacy sygnal jest widoczny w obydwu
+
+Główną różnicą jest pending
