@@ -1,0 +1,16 @@
+Zestaw jest kompletny, tzn. wszystkie zadania są zrealizowane.
+
+Zad 1.
+Serwer obsługuje do 3 klientów według polecenia. Może współpracować 
+z każdym z nich jednocześnie. Historia wprowadzanych komend jest 
+zapisywana w pliku history.txt. Pod wątpliwość można poddać jedynie 
+priorytet w jakim są wykonywane polecenia. Komenda STOP ma najwyższy 
+priorytet. Zadanie używa SYSTEM V. Jeżeli liczba aktualnych klientów 
+jest >= 3 to nowy klient próbujący dołączyć do serwera otrzyma stosowny 
+komunikat. Serwer można wyłączyć używając CTRL + C, co jest rejestrowane 
+i zapisywane do pliku history.txt. Podobnie klient może użyć zarówno polecenia
+STOP jak i CTRL + C co również będzie odnotowane.
+
+Zad 2.
+Podobnie jak powyżej. Zadanie używa systemu POSIX.
+
