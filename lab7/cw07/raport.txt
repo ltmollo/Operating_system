@@ -1,0 +1,11 @@
+Zestaw jest kompletny, tzn. zawiera zrealizowane zadania wszystkie zadania.
+Parametry symulacji można zmieniać w pliku nagłówkowym variables.h jako 
+Stałe BARBER_TOTAL, CHAIR_TOTAL 3, QUEUE_SIZE 5. Program informuje o
+o zakończeniu symulacji. Polecenie ./main wywołuje symulację.
+
+Zad 1.
+Opracowane na podstawie SYSTEMU_V
+
+Zad2.
+Opracowane na podstawie POSIX
+

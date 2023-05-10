@@ -1,0 +1,14 @@
+Zestaw jest kompletny, tzn. zawiera pełen zestaw działających zadań.
+
+
+Zad 1.
+Plik wzbogacono o strukturę UpdateGrid która znajduje się w pliku nagłówkowym.
+Dodatkowo, kod zmodyfikowano o funkcję update_grid_multithreaded, update_grid oraz o
+handler. Program tworzy jeden wątek dla każdej komórki planszy. Każdy z utworzonych 
+wątków oblicza stan swojej przypisanej komórki w następnym kroku czasowym. 
+Wątek główny zleca pracę i wyświetla wyniki. Wątki tworzone są raz na początku programu 
+i wykonują swoją pracę raz na iterację.
+
+Zad 2.
+Rozszerzono funkcję update_grid_multithreaded o liczbę wątków. Program przyjmuje 
+liczbę wątków na wejściu, rozdziela pomiędzy wątkami pracę maksymalnie równolegle.
