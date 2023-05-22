@@ -1,0 +1,39 @@
+Zestaw jest kompletny, tzn. zrealizowano zadanie na 100%
+
+Polecenie make wykonuje przykładowe wywołanie, którego wynik zapisuje w pliku result.txt, 
+a następnie je wyświetla. Test jest kończony w momencie gdy Mikołaj pomoże 3 elfom, 
+(aby nie trwał zbyt długo). Dodatkowo jeśli chcemy zmienić liczbę elfów lub reniferów 
+możemy to zrobić, zmieniając stałe zdefiniowane w pliku nagłówkowym common.h. Program zgodnie 
+z poleceniem, zatrzymuje swoje działanie w gdy Mikołaj dostarczy prezenty po raz trzeci. 
+Mikołaj pomaga elfom w pracy zgodnie z kolejnością zgłaszanych problemów przez elfy.
+
+Mikołaj śpi i może być obudzony tylko w sytuacji gdy wszystkie z NB_OF_REINDEERS 
+(domyślnie 9) reniferów wróciło z wakacji lub REQUIRED_ELVES (domyślnie 3) z NB_OF_ELVES 
+(domyślnie 10) elfów ma problemy. Kiedy problemy NB_OF_ELVES elfów są rozwiązywane przez 
+Mikołaja to pozostałe nie zgłaszają swoich problemów aż do powrotu pierwszej trójki.
+Jeśli Mikołaj się obudzi i zastanie jednocześnie 9 reniferów i 3 elfy przed swoim 
+warsztatem to najpierw rozwiązuje problemy elfów, potem rozwozi prezenty. 
+
+Elfy:
+pracują losowo od 2 do 5 sekund.
+Zgłaszają problem jeśli liczba oczekujących elfów przed warsztatem Mikołaja jest mniejsza 
+od REQUIRED_ELVES. W przeciwnym razie same rozwiązują swój problem.
+Jeśli jest NB_OF_ELVES elfem przed warsztatem to wybudza Mikołaja.
+I rozwiązuje problemy każdego problemy od 1 do 2 s każdy.
+
+Renifery:
+Renifery są na wakacjach przez okres czasu 5-10 sekund.
+Jeśli wszystkie wrócą to ostatni renifer  wybudza Mikołaja. Wówczas dostarcza on zabawki 
+od 2 do 4 sekund, a potem renifery lecą na wakacje.
+
+Mikołaj:
+Mikołaj śpi kiedy nie ma nic do zrobienia
+Kiedy zostaje wybudzony i renifery powróciły z wakacji to dostarcza prezenty, jeśli w 
+kolejce czekaja REQUIRED_ELVES elfów to rozwiązuje ich problemy.
+Kiedy Mikołaj nie ma nic do pracy to wraca do snu.
+
+Wszystkie powyższe stany takie jak zasypianie, wracanie z wakacji, budzenie Mikołaja, 
+rozwiązywanie problemów itp. są poprzedzone odpowiednim komunikatem. Program korzysta z 
+wątków i mechanizmów synchronizacji biblioteki POSIX Threads. 
+Po uruchomieniu programu wątek główny tworzy wątki dla Mikołaja, reniferów oraz elfów. 
+Program kończy swoją pracę, gdy Mikołaj dostarczy prezenty po raz trzeci.
